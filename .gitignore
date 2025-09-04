@@ -1,0 +1,23 @@
+# /server/.gitignore
+
+# Python & FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+instance/
+.env
+.env.*
+*.log
+
+# venv
+venv/
+.venv/
+
+# VSCode or IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
